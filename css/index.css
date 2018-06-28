@@ -1,0 +1,36 @@
+	body {
+		margin: 0px;
+		padding: 0px;
+		background-color: #fafafa;
+	}
+
+	.right_column {
+		text-align: center;
+		font-size: 14px;
+    	line-height: 18px;
+    	padding-top: 10px;
+    	padding-bottom: 10px;
+    	background-color: #fff;
+    	border: 1px solid #e6e6e6;
+    	width: 350px;
+    	border-radius: 1px;
+    	margin-bottom: 10px;
+
+	}
+
+	.left_column {
+		padding: 10px;
+		float: left;
+		width: 350px;
+
+	}
+
+.footer {
+   left:0px;
+   bottom:0px;
+   height:50px;
+   width:100%;/*or 600 pixels if you don't want it to fill the bottom of the page*/
+   align-items: stretch;
+   display: flex;
+   position: relative;
+}
