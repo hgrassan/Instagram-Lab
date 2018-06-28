@@ -2,6 +2,7 @@
 		margin: 0px;
 		padding: 0px;
 		background-color: #fafafa;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 	}
 
   #section {
@@ -65,3 +66,20 @@
   box-sizing: border-box;
 }
 
+.next {
+  background: #3897f0;
+  border-color: #3897f0;
+  color: #fff
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  -webkit-appearance: none;
+  white-space: nowrap;
+  width: 100%;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
