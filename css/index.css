@@ -4,6 +4,13 @@
 		background-color: #fafafa;
 	}
 
+  #section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    /*padding-right: 10%;*/
+  }
+
 	.right_column {
 		text-align: center;
 		font-size: 14px;
@@ -16,9 +23,19 @@
     	border-radius: 1px;
     	margin-bottom: 10px;
       float: left;
-      
-
 	}
+
+  .right {
+    text-align: center;
+    font-size: 14px;
+      line-height: 18px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 350px;
+      border-radius: 1px;
+      margin-bottom: 10px;
+      float: left;
+  }
 
 	.left_column {
 		padding: 10px;
@@ -35,6 +52,7 @@
    align-items: stretch;
    display: flex;
    position: relative;
+   text-align: center;
 }
 
 #signup_form {
